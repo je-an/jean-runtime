@@ -1,0 +1,19 @@
+{
+  "name": "jean-runtime",
+  "version": "0.0.0",
+  "description": "Provides an runtime environment for browser based apps",
+  "main": "dist/jean-runtime.js",
+  "scripts": {
+    "test": "open spec/spec-runner.html in browser"
+  },
+  "keywords": [],
+  "author": "Jeremias Andris",
+  "license": "MIT",
+  "dependencies": {
+    "jean-amd": "1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/je-an/jean-runtime.git"
+  }
+}
