@@ -1,6 +1,6 @@
 {
   "name": "jean-runtime",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Provides an runtime environment for browser based apps",
   "main": "dist/jean-runtime.js",
   "scripts": {
@@ -10,7 +10,10 @@
   "author": "Jeremias Andris",
   "license": "MIT",
   "dependencies": {
-    "jean-amd": "1.0.3"
+    "jean-amd": "1.0.3",
+    "jean-failure": "^1.0.1",
+    "jean-list": "^1.0.10",
+    "jean-type-check": "^1.5.2"
   },
   "repository": {
     "type": "git",

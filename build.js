@@ -19,6 +19,8 @@
         "}));"
     },
      paths:{
-       
+        TypeCheck: "node_modules/jean-type-check/src/TypeCheck",
+        Failure: "node_modules/jean-failure/src/Failure",
+        List: "node_modules/jean-list/src/List"
     }
 })
