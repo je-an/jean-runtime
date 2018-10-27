@@ -10,7 +10,7 @@ define(["List", "Failure", "TypeCheck"], function (List, Failure, TypeCheck) {
             if (TypeCheck.isString(component.id) &&
                 TypeCheck.isFunction(component.onComponentWire) &&
                 TypeCheck.isFunction(component.onComponentStart) &&
-                TypeCheck.isFunction(component.onRuntimeReady)) {
+                TypeCheck.isFunction(component.onComponentsReady)) {
                 components.onComponentWire();
                 components.addElement(component);
             } else {
