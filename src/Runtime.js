@@ -11,7 +11,7 @@ define(["List", "Failure", "TypeCheck"], function (List, Failure, TypeCheck) {
                 TypeCheck.isFunction(component.onComponentWire) &&
                 TypeCheck.isFunction(component.onComponentStart) &&
                 TypeCheck.isFunction(component.onComponentsReady)) {
-                components.onComponentWire();
+                component.onComponentWire();
                 components.addElement(component);
             } else {
                 Failure.throwTypeError("component is invalid");
